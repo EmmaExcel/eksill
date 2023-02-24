@@ -1,0 +1,366 @@
+
+
+.portfolio-container {
+
+    background-color: white;
+    height: 300vh;
+}
+
+.box-back {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    left: 55%;
+
+}
+
+.box-back p {
+
+    font-family: 'Manrope';
+    font-style: normal;
+
+    font-size: 64px;
+    line-height: 163.1%;
+}
+
+.testimonial-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.testimonial-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.build {
+    padding-top: 200px;
+}
+
+.box-back span {
+    color: #1E5DFF;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hired span {
+    color: #1E5DFF;
+    font-weight: 500;
+    font-size: 84px;
+}
+
+.hired {
+    margin-left: 150px;
+}
+
+.hired-paragraph p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 400px;
+}
+
+.hired-button button {
+    background-color: transparent;
+    padding: 3px 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.hired-button button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.portfolio-images {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    position: relative;
+    top: -450px;
+    left: 150px;
+}
+
+.left {
+    position: relative;
+    top: -250px;
+    right: 120px;
+}
+
+.left-by span {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left-how {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.right {
+    position: relative;
+    top: -300px;
+}
+
+
+.testimonial-review-paragraph p{
+    width:600px ;
+}
+
+.testimonial-review-box{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.testimonial-review-header{
+    padding: 5px 0;
+}
+
+.testimonial-review-career{
+    padding:5px 0;
+}
+
+.rating{
+    padding: 15px 0;
+}
+
+.arrows{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.arrows img{
+    margin-left: 10px;
+}
+
+@media (max-width:800px) {
+    .portfolio-container{
+        height: 250vh;
+    }
+
+    
+.box-back {
+    width: 300px;
+    height: 700px;
+    background-color: white;
+    position: unset;
+    padding-left: 30px;
+}
+
+.box-back p {
+
+    font-family: 'Manrope';
+    font-style: normal;
+
+    font-size: 40px;
+    line-height: 163.1%;
+}
+
+
+.box-back span {
+    color: #1E5DFF;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.hired span {
+    color: #1E5DFF;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.hired {
+    margin-left: 0px;
+}
+
+.hired-paragraph p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 300px;
+}
+
+.hired-button button {
+    background-color: transparent;
+    padding: 3px 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.hired-button button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.portfolio-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.top{
+    position: unset;
+    padding-left:70px;
+    padding-top: 40px;
+}
+
+.top img:nth-child(1){
+    position: unset;
+    height: 300px;
+    width: 250px;
+
+}
+.top img:nth-child(2){
+    position: unset;
+    height: 300px;
+    width: 250px;
+}
+
+.left {
+    position: relative;
+    top: -250px;
+    right: 120px;
+    display: none;
+}
+
+.left-by span {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+
+.left-how {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+
+.right {
+    position: relative;
+    top: -300px;
+    display: none;
+}
+
+.testimonial{
+    padding-top: 50px;
+}
+
+
+.testimonial-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+}
+
+.testimonial-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.testimonial-review-paragraph p{
+    width:250px ;
+    font-size: small;
+}
+
+.testimonial-review-box{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.testimonial-review-header{
+    padding: 5px 0;
+}
+
+.testimonial-review-career{
+    padding:5px 0;
+}
+
+.rating{
+    padding: 15px 0;
+}
+
+.arrows{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.arrows img{
+    margin-left: 10px;
+}
+.testimonial-image img{
+    width: 250px;
+}
+
+.testimonial-image{
+    padding-bottom: 30px;
+}
+
+
+.testimonial-review-image img{
+    width: 80px;
+}
+
+
+}

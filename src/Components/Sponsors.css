@@ -1,0 +1,38 @@
+.sponsor-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sponsor-header p{
+    width: 179px;
+height: 38px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+
+}
+
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:800px) {
+    .sponsors-img-container {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 30px;
+        padding: 20px;
+        
+    }
+
+    .sponsors-img-container img{
+        width: 150px;
+    }
+}
